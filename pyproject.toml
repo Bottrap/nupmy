@@ -5,10 +5,6 @@ description = "simplest example in the python world"
 license = { text="MIT" }
 dependencies = []
 
-[project.urls]
-homepage = "https://github.com/gdamjan/hello-world-python-package"
-repository = "https://github.com/gdamjan/hello-world-python-package"
-
 [tool.setuptools]
 # data to be included is specified in MANIFEST.in
 include-package-data = true
