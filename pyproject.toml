@@ -12,19 +12,6 @@ include-package-data = true
 [tool.setuptools.packages]
 find = {}
 
-[project.scripts]
-cool-cmd = "nupmy.__main__:main"
-
-[project.optional-dependencies]
-tests = [
-  "coverage",
-  "pytest",
-]
-ci = [
-  "black",
-  "flake8",
-]
-
 [tool.pytest.ini_options]
 testpaths = [
   "tests",
